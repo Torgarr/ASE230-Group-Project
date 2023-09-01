@@ -4,7 +4,7 @@
 $members = array(
 	array("name"=>"Jakob Banta","role"=>"Cyber Security Red Team Specalist"),
 	array("name"=>"Carson Stuff","role"=>"Carsons role"),
-	array("name"=>"Dexter Stuff","role"=>"Dexter role")
+	array("name"=>"Dexter Walters","role"=>"NKCyber Treasurer and Build Team Head")
 );
 ?>
 <!DOCTYPE html>
