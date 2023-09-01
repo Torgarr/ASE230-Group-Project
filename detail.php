@@ -1,6 +1,7 @@
 <?php
-// INSERT DATA HERE.
-$index = $_GET['index'];
+// Get the index value from the URL query parameter
+$index = $_GET['index']; 
+// Array of member profiles
 $members = array(
 	array(
 		"name" => "Jakob Banta",

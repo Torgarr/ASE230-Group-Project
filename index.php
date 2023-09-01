@@ -1,6 +1,5 @@
 <?php
-// INSERT DATA HERE.
-
+// Array of team member profiles
 $members = array(
 	array(
 		"name"=>"Jakob Banta",
