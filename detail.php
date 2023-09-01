@@ -3,164 +3,324 @@
 $index = $_GET['index'];
 $members = array(
 	array(
-		"name" => "Jakob Banta", "role" => "Cyber Security Red Team Specalist", "email" => "Bantaj3@nku.edu", "phone" => "(859) 707-1605", "linkedin" => "https://linkedin.com/in/jakob-banta-a3085a187", "github" => "https://github.com/Torgarr", "website" => "", "bio" => "Highly motivated and enthusiastic IT professional with expertise in cyber security. Skilled in vulnerability assessments, penetration testing, and compliance and regulatory requirements. Strong analytical skills with the ability to quickly analyze and interpret complex information to develop effective solutions. Excellent communication and collaboration skills. Seeking a challenging and dynamic role in the cyber security field to further develop skills and contribute to the success of the organization.", "work" => array(
+		"name" => "Jakob Banta",
+		"role" => "Cyber Security Red Team Specalist",
+		"email" => "Bantaj3@nku.edu",
+		"phone" => "(859) 707-1605",
+		"linkedin" => "https://linkedin.com/in/jakob-banta-a3085a187",
+		"github" => "https://github.com/Torgarr",
+		"website" => "",
+		"bio" => "Highly motivated and enthusiastic IT professional with expertise in cyber security. Skilled in vulnerability assessments, penetration testing, and compliance and regulatory requirements. Strong analytical skills with the ability to quickly analyze and interpret complex information to develop effective solutions. Excellent communication and collaboration skills. Seeking a challenging and dynamic role in the cyber security field to further develop skills and contribute to the success of the organization.",
+		"work" => array(
 			"work1" => array(
-				"title" => "Desktop Support Specialist", "company" => "Northern Kentucky University", "time" => "2019 - Present", "description" => "Technical support of faculty, staff and students over the phone, chat, and in person.", "achievements" => array(
-					"Manage escalated IT Help Desk tickets, demonstrating excellent time management skills.", "Conduct large-scale projects to ensure smooth university operations, including adjustments to project plans, timelines, and budgets due to unexpected events or changes in priorities.","Identify hardware performance trends and common system issues, reporting findings for remediation.","Author detailed service call resolution documentation for personnel performance and effective remediation techniques."
-				), "technology" => array(
-					"Parted Magic", "Team Dynamics","Teams","Cisco VPN","Zoom","Evo Server"
+				"title" => "Desktop Support Specialist",
+				"company" => "Northern Kentucky University",
+				"time" => "2019 - Present",
+				"description" => "Technical support of faculty, staff and students over the phone, chat, and in person.",
+				"achievements" => array(
+					"Manage escalated IT Help Desk tickets, demonstrating excellent time management skills.",
+					"Conduct large-scale projects to ensure smooth university operations, including adjustments to project plans, timelines, and budgets due to unexpected events or changes in priorities.",
+					"Identify hardware performance trends and common system issues, reporting findings for remediation.", "Author detailed service call resolution documentation for personnel performance and effective remediation techniques."
 				),
-			), "work2" => array(
-				"title" => "ISOC Intern", "company" => "Kroger", "time" => "2021 - 2021", "description" => "Support the Information Security Operations Center by monitoring security alerts and incidents, contributing to incident response activities, and analyzing threat intelligence data.", "achievements" => array(
-					"Conducted penetration testing on external routers, identifying potential security vulnerabilities and developing effective remediation strategies.", "Monitored vulnerability exceptions, demonstrating strong analytical skills."
-				), "technology" => array(
-					"Python", "Cobalt Strike","Kali Linux"
+				"technology" => array(
+					"Parted Magic",
+					"Team Dynamics",
+					"Teams",
+					"Cisco VPN",
+					"Zoom",
+					"Evo Server"
+				),
+			),
+			"work2" => array(
+				"title" => "ISOC Intern",
+				"company" => "Kroger",
+				"time" => "2021 - 2021",
+				"description" => "Support the Information Security Operations Center by monitoring security alerts and incidents, contributing to incident response activities, and analyzing threat intelligence data.",
+				"achievements" => array(
+					"Conducted penetration testing on external routers, identifying potential security vulnerabilities and developing effective remediation strategies.",
+					"Monitored vulnerability exceptions, demonstrating strong analytical skills."
+				),
+				"technology" => array(
+					"Python",
+					"Cobalt Strike",
+					"Kali Linux"
 				),
 			)
-		), "skills" => array(
-			"Python", "Java", "JavaScript","C/C++","HTML/CSS"
-		), "otherSkills" => array(
-			"Cisco Switch Configuration", "Cisco Router Configuration", "Git","Unit Testing","Network Management","Penetration Testing","Firewall Management (Palo Alto, PFsense)","Linux Server Administration"
-		), "education" => array(
+		),
+		"skills" => array(
+			"Python",
+			"Java",
+			"JavaScript",
+			"C/C++",
+			"HTML/CSS"
+		),
+		"otherSkills" => array(
+			"Cisco Switch Configuration",
+			"Cisco Router Configuration",
+			"Git",
+			"Unit Testing",
+			"Network Management",
+			"Penetration Testing",
+			"Firewall Management (Palo Alto, PFsense)",
+			"Linux Server Administration"
+		),
+		"education" => array(
 			"education1" => array(
-				"degree" => "BSc in Cyber Security", "college" => "Northern Kentucky University", "years" => "2018 - 2023"
-			), "education2" => array(
-				"degree" => "BSc in Computer Information Technology", "college" => "Northern Kentucky University", "years" => "2018 - 2023"
-			), "education3" => array(
-				"degree" => "BSc in Computer Science", "college" => "Northern Kentucky University", "years" => "2018 - 2023"
+				"degree" => "BSc in Cyber Security",
+				"college" => "Northern Kentucky University",
+				"years" => "2018 - 2023"
+			),
+			"education2" => array(
+				"degree" => "BSc in Computer Information Technology",
+				"college" => "Northern Kentucky University",
+				"years" => "2018 - 2023"
+			),
+			"education3" => array(
+				"degree" => "BSc in Computer Science",
+				"college" => "Northern Kentucky University",
+				"years" => "2018 - 2023"
 			)
 
-		), "achievements" => array(
+		),
+		"achievements" => array(
 			"achievement1" => array(
-				"achievementtitle" => "Leadership in NKCyber Club (2020 - 2023):", "acievementdescription" => "Elevated from Secretary (2020-2021) to President (2021-2023) of NKCyber Club at Northern Kentucky University. Directed training, competitions, and research initiatives, enhancing cybersecurity proficiency and fostering innovation within the club."
+				"achievementtitle" => "Leadership in NKCyber Club (2020 - 2023):",
+				"acievementdescription" => "Elevated from Secretary (2020-2021) to President (2021-2023) of NKCyber Club at Northern Kentucky University. Directed training, competitions, and research initiatives, enhancing cybersecurity proficiency and fostering innovation within the club."
 			),
 			"achievement2" => array(
-				"achievementtitle" => "Member of NKU Cyber Defense Team (2019 - Present):", "acievementdescription" => "Managed network infrastructure for a competition, collaborated with team members, gained expertise in network management and troubleshooting."
+				"achievementtitle" => "Member of NKU Cyber Defense Team (2019 - Present):",
+				"acievementdescription" => "Managed network infrastructure for a competition, collaborated with team members, gained expertise in network management and troubleshooting."
 			),
 			"achievement3" => array(
-				"achievementtitle" => "Member of NKCyber Research and Development (2019 - Present):", "acievementdescription" => "Expanded organization\'s wiki page on Penetration Testing, gained skills in research, technical writing, and project management."
+				"achievementtitle" => "Member of NKCyber Research and Development (2019 - Present):",
+				"acievementdescription" => "Expanded organization\'s wiki page on Penetration Testing, gained skills in research, technical writing, and project management."
 			),
 			"achievement4" => array(
-				"achievementtitle" => "Network Designer/Architect for NKCyber Server Rebuild (2022 - Present):", "acievementdescription" => "Demonstrated expertise in retention and deployment of networking devices, including switches, routers, and firewalls, ensured devices met organizational requirements."
+				"achievementtitle" => "Network Designer/Architect for NKCyber Server Rebuild (2022 - Present):",
+				"acievementdescription" => "Demonstrated expertise in retention and deployment of networking devices, including switches, routers, and firewalls, ensured devices met organizational requirements."
 			)
-		), "language" => array(
+		),
+		"language" => array(
 			"language1" => array(
-				"languageName" => "English", "fluency" => "(Native)"
+				"languageName" => "English",
+				"fluency" => "(Native)"
 			),
 			"language2" => array(
-				"languageName" => "German", "fluency" => "(Elementary)"
+				"languageName" => "German",
+				"fluency" => "(Elementary)"
 			)
-		), "interests" => array(
-			"Parkour", "Skateboarding","Cooking"
-		), "projects" => array(
+		),
+		"interests" => array(
+			"Parkour",
+			"Skateboarding",
+			"Cooking"
+		),
+		"projects" => array(
 			"project1" => array(
-				"projectTitle" => "Development of NKCyber\'s Website", "projectDescription" => "Contributed to the development of the NKCyber Club\'s official website, collaborating with team members to enhance the online platform. Assisted in implementing user-friendly features, organizing content, and optimizing functionality to effectively represent the club and its activities online.", "projectImage" => ".\\assets\\images\\nkcyber_logo_small.png", "projectLink" => "https://nkcyber-club.github.io/"
+				"projectTitle" => "Development of NKCyber\'s Website",
+				"projectDescription" => "Contributed to the development of the NKCyber Club\'s official website, collaborating with team members to enhance the online platform. Assisted in implementing user-friendly features, organizing content, and optimizing functionality to effectively represent the club and its activities online.",
+				"projectImage" => ".\\assets\\images\\nkcyber_logo_small.png",
+				"projectLink" => "https://nkcyber-club.github.io/"
 			),
 			"project2" => array(
-				"projectTitle" => "Network Designer/Architect for NKCyber Server Rebuild (2022 - Present)", "projectDescription" => "Demonstrated expertise in retention and deployment of networking devices, including switches, routers, and firewalls, ensured devices met organizational requirements.", "projectImage" => ".\\assets\\images\\nkcyber_logo_small.png", "projectLink" => ""
+				"projectTitle" => "Network Designer/Architect for NKCyber Server Rebuild (2022 - Present)",
+				"projectDescription" => "Demonstrated expertise in retention and deployment of networking devices, including switches, routers, and firewalls, ensured devices met organizational requirements.",
+				"projectImage" => ".\\assets\\images\\nkcyber_logo_small.png",
+				"projectLink" => ""
 			)
 		)
 
 	),
 	array(
-		"name" => "Carson stuff", "role" => "carson role", "email" => "email_address", "phone" => "(555) 555-5555", "linkedin" => "linkedin_url", "github" => "github_url", "website" => "your website_url if none but keep blank", "bio" => "bio_stuff", "work" => array(
+		"name" => "Carson stuff",
+		"role" => "carson role",
+		"email" => "email_address",
+		"phone" => "(555) 555-5555",
+		"linkedin" => "linkedin_url",
+		"github" => "github_url",
+		"website" => "your website_url if none but keep blank",
+		"bio" => "bio_stuff",
+		"work" => array(
 			"work1" => array(
-				"title" => "job_title", "company" => "company_name", "time" => "20xx - 20xx", "description" => "job_desc", "achievements" => array(
-					"achievement1", "achievement2"
+				"title" => "job_title",
+				"company" => "company_name",
+				"time" => "20xx - 20xx",
+				"description" => "job_desc",
+				"achievements" => array(
+					"achievement1",
+					"achievement2"
 				), "technology" => array(
-					"technology1", "technology2"
+					"technology1",
+					"technology2"
 				),
-			), "work2" => array(
-				"title" => "job_title", "company" => "company_name", "time" => "20xx - 20xx", "description" => "job_desc", "achievements" => array(
-					"achievement1", "achievement2"
+			),
+			"work2" => array(
+				"title" => "job_title",
+				"company" => "company_name",
+				"time" => "20xx - 20xx",
+				"description" => "job_desc",
+				"achievements" => array(
+					"achievement1",
+					"achievement2"
 				), "technology" => array(
-					"technology1", "technology2"
+					"technology1",
+					"technology2"
 				),
 			)
-		), "skills" => array(
-			"skill1", "skill2", "skill3"
-		), "otherSkills" => array(
-			"skill1", "skill2", "skill3"
-		), "education" => array(
+		),
+		"skills" => array(
+			"skill1",
+			"skill2",
+			"skill3"
+		),
+		"otherSkills" => array(
+			"skill1",
+			"skill2",
+			"skill3"
+		),
+		"education" => array(
 			"education1" => array(
-				"degree" => "degree_info", "college" => "Northern Kentucky University", "years" => "20xx - 20xx"
-			), "education2" => array(
-				"degree" => "degree_info", "college" => "Northern Kentucky University", "years" => "20xx - 20xx"
+				"degree" => "degree_info",
+				"college" => "Northern Kentucky University",
+				"years" => "20xx - 20xx"
+			),
+			"education2" => array(
+				"degree" => "degree_info",
+				"college" => "Northern Kentucky University",
+				"years" => "20xx - 20xx"
 			),
 
-		), "achievements" => array(
+		),
+		"achievements" => array(
 			"achievement1" => array(
-				"achievementtitle" => "achievement_title", "acievementdescription" => "achievement_desc"
+				"achievementtitle" => "achievement_title",
+				"acievementdescription" => "achievement_desc"
 			),
 			"achievement2" => array(
-				"achievementtitle" => "achievement_title", "acievementdescription" => "achievement_desc"
+				"achievementtitle" => "achievement_title",
+				"acievementdescription" => "achievement_desc"
 			)
-		), "language" => array(
+		),
+		"language" => array(
 			"language1" => array(
-				"languageName" => "English", "fluency" => "(Native)"
+				"languageName" => "English",
+				"fluency" => "(Native)"
 			),
 			"language2" => array(
-				"languageName" => "English", "fluency" => "(Native)"
+				"languageName" => "English",
+				"fluency" => "(Native)"
 			)
-		), "interests" => array(
-			"interest1", "interests2"
-		), "projects" => array(
+		),
+		"interests" => array(
+			"interest1",
+			"interests2"
+		),
+		"projects" => array(
 			"project1" => array(
-				"projectTitle" => "Title of project", "projectDescription" => "Description of project", "projectImage" => "location of image for project", "projectLink" => "link to project website"
+				"projectTitle" => "Title of project",
+				"projectDescription" => "Description of project",
+				"projectImage" => "location of image for project",
+				"projectLink" => "link to project website"
 			)
 		)
 
 	),
 	array(
-		"name" => "Dexter stuff", "role" => "dexter role", "email" => "email_address", "phone" => "(555) 555-5555", "linkedin" => "linkedin_url", "github" => "github_url", "website" => "your website_url if none but keep blank", "bio" => "bio_stuff", "work" => array(
+		"name" => "Dexter stuff",
+		"role" => "dexter role",
+		"email" => "email_address",
+		"phone" => "(555) 555-5555",
+		"linkedin" => "linkedin_url",
+		"github" => "github_url",
+		"website" => "your website_url if none but keep blank",
+		"bio" => "bio_stuff",
+		"work" => array(
 			"work1" => array(
-				"title" => "job_title", "company" => "company_name", "time" => "20xx - 20xx", "description" => "job_desc", "achievements" => array(
-					"achievement1", "achievement2"
+				"title" => "job_title",
+				"company" => "company_name",
+				"time" => "20xx - 20xx",
+				"description" => "job_desc",
+				"achievements" => array(
+					"achievement1",
+					"achievement2"
 				), "technology" => array(
-					"technology1", "technology2"
+					"technology1",
+					"technology2"
 				),
-			), "work2" => array(
-				"title" => "job_title", "company" => "company_name", "time" => "20xx - 20xx", "description" => "job_desc", "achievements" => array(
-					"achievement1", "achievement2"
+			),
+			"work2" => array(
+				"title" => "job_title",
+				"company" => "company_name",
+				"time" => "20xx - 20xx",
+				"description" => "job_desc",
+				"achievements" => array(
+					"achievement1",
+					"achievement2"
 				), "technology" => array(
-					"technology1", "technology2"
+					"technology1",
+					"technology2"
 				),
 			)
-		), "skills" => array(
-			"skill1", "skill2", "skill3"
-		), "otherSkills" => array(
-			"skill1", "skill2", "skill3"
-		), "education" => array(
+		),
+		"skills" => array(
+			"skill1",
+			"skill2",
+			"skill3"
+		),
+		"otherSkills" => array(
+			"skill1",
+			"skill2",
+			"skill3"
+		),
+		"education" => array(
 			"education1" => array(
-				"degree" => "degree_info", "college" => "Northern Kentucky University", "years" => "20xx - 20xx"
-			), "education2" => array(
-				"degree" => "degree_info", "college" => "Northern Kentucky University", "years" => "20xx - 20xx"
+				"degree" => "degree_info",
+				"college" => "Northern Kentucky University",
+				"years" => "20xx - 20xx"
+			),
+			"education2" => array(
+				"degree" => "degree_info",
+				"college" => "Northern Kentucky University",
+				"years" => "20xx - 20xx"
 			),
 
-		), "achievements" => array(
+		),
+		"achievements" => array(
 			"achievement1" => array(
-				"achievementtitle" => "achievement_title", "acievementdescription" => "achievement_desc"
+				"achievementtitle" => "achievement_title",
+				"acievementdescription" => "achievement_desc"
 			),
 			"achievement2" => array(
-				"achievementtitle" => "achievement_title", "acievementdescription" => "achievement_desc"
+				"achievementtitle" => "achievement_title",
+				"acievementdescription" => "achievement_desc"
 			)
-		), "language" => array(
+		),
+		"language" => array(
 			"language1" => array(
-				"languageName" => "English", "fluency" => "(Native)"
+				"languageName" => "English",
+				"fluency" => "(Native)"
 			),
 			"language2" => array(
-				"languageName" => "English", "fluency" => "(Native)"
+				"languageName" => "English",
+				"fluency" => "(Native)"
 			)
-		), "interests" => array(
-			"interest1", "interests2"
-		), "projects" => array(
+		),
+		"interests" => array(
+			"interest1",
+			"interests2"
+		),
+		"projects" => array(
 			"project1" => array(
-				"projectTitle" => "Title of project", "projectDescription" => "Description of project", "projectImage" => "location of image for project", "projectLink" => "link to project website"
+				"projectTitle" => "Title of project",
+				"projectDescription" => "Description of project",
+				"projectImage" => "location of image for project",
+				"projectLink" => "link to project website"
 			)
 		)
 
 	)
 );
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -241,7 +401,6 @@ $members = array(
 							<div class="resume-section-content">
 								<div class="resume-timeline position-relative">
 									<?php
-
 									foreach ($members[$index]['work'] as $jobs) {
 									?>
 										<article class="resume-timeline-item position-relative pb-5">
@@ -350,7 +509,7 @@ $members = array(
 							</div>
 						</section><!--//education-section-->
 						<section class="resume-section reference-section mb-5">
-							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Achievements</h2>
 							<div class="resume-section-content">
 								<ul class="list-unstyled resume-awards-list">
 									<?php
