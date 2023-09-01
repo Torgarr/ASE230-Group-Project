@@ -2,7 +2,7 @@
 // INSERT DATA HERE.
 $index=$_GET['index'];
 $members = array(
-	array("name"=>"Jakob Banta","role"=>"Cyber Security Red Team Specalist","email"=>"email_address","phone"=>"(555) 555-5555","linkedin"=>"linkedin_url","github"=>"github_url","bio"=>"bio_stuff","example"=>"examplestuff"),
+	array("name"=>"Jakob Banta","role"=>"Cyber Security Red Team Specalist","email"=>"email_address","phone"=>"(555) 555-5555","linkedin"=>"linkedin_url","github"=>"github_url","bio"=>"bio_stuff",),
 	array("name"=>"Carson Stuff","role"=>"Carsons role"),
 	array("name"=>"Dexter Stuff","role"=>"Dexter role")
 );
