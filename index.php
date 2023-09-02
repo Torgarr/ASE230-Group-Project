@@ -5,8 +5,8 @@ $members = array(
 		"name"=>"Jakob Banta",
 		"role"=>"Cyber Security Red Team Specalist"),
 	array(
-		"name"=>"Carson Stuff",
-		"role"=>"Carsons role"),
+		"name"=>"Carson Rolph",
+		"role"=>"NKCyber VP and Cyber Security Trainer"),
 	array(
 		"name"=>"Dexter Walters",
 		"role"=>"NKCyber Treasurer and Build Team Head")
