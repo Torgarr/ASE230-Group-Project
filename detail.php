@@ -227,73 +227,73 @@ $members = array(
 
 	),
 	array(
-		"name" => "Dexter stuff",
-		"role" => "dexter role",
-		"email" => "email_address",
-		"phone" => "(555) 555-5555",
-		"linkedin" => "linkedin_url",
-		"github" => "github_url",
-		"website" => "your website_url if none but keep blank",
-		"bio" => "bio_stuff",
+		"name" => "Dexter Walters",
+		"role" => "Treasurer and Build Team - NKCyber",
+		"email" => "waltersd3@mymail.nku.edu",
+		"phone" => "(859) 312-9839",
+		"linkedin" => "https://www.linkedin.com/in/dextercwalters",
+		"github" => "https://github.com/DexyW",
+		"website" => "",
+		"bio" => "My name is Dexter Walters. I am a student at Northern Kentucky University studying Cybersecurity in my Senior year. I am incredibly involved in the University. At one point, I held a position as a Teachet's assistant, Master Teacher\s Assitant, Research Assistant, and Network & Server Team Member.",
 		"work" => array(
 			"work1" => array(
-				"title" => "job_title",
-				"company" => "company_name",
-				"time" => "20xx - 20xx",
-				"description" => "job_desc",
+				"title" => "Customer Care Center",
+				"company" => "Great American Insurance Group",
+				"time" => "2023 - Present",
+				"description" => "Assess and address the IT needs of GAIG customers, contractors, and affiliates. This includes using AD, DHCP, DNS, and more.",
 				"achievements" => array(
-					"achievement1",
-					"achievement2"
+					"Started one week ago, no achievements yet.",
+					""
 				), "technology" => array(
-					"technology1",
-					"technology2"
+					"Active Directory",
+					"Dynamic Host Control Protocol"
 				),
 			),
 			"work2" => array(
-				"title" => "job_title",
-				"company" => "company_name",
-				"time" => "20xx - 20xx",
-				"description" => "job_desc",
+				"title" => "Cyber Intel Analyst Intern",
+				"company" => "GE Aerospace",
+				"time" => "Summer 2023",
+				"description" => "At GE Aerospace, I joined their DT Intern program on the Cyber Intel and Active Defense team. While there, I got to use SPLUNK, a threat management platform, OpenCTI, and other software.",
 				"achievements" => array(
-					"achievement1",
-					"achievement2"
+					"Presented to the entire company the findings that me and two other interns found during an internal threat hunt.",
+					""
 				), "technology" => array(
-					"technology1",
-					"technology2"
+					"SPLUNK",
+					"Teams"
 				),
 			)
 		),
 		"skills" => array(
-			"skill1",
-			"skill2",
-			"skill3"
+			"AD",
+			"DHCP",
+			"DNS"
 		),
 		"otherSkills" => array(
-			"skill1",
-			"skill2",
-			"skill3"
+			"Python",
+			"Java",
+			"C++"
 		),
 		"education" => array(
 			"education1" => array(
-				"degree" => "degree_info",
+				"degree" => "B.S. Cybersecurity",
 				"college" => "Northern Kentucky University",
-				"years" => "20xx - 20xx"
+				"years" => "2021 - 2023"
 			),
 			"education2" => array(
-				"degree" => "degree_info",
-				"college" => "Northern Kentucky University",
-				"years" => "20xx - 20xx"
+				"degree" => "B.S. in Science",
+				"college" => "Bluegrass Community and Technical College",
+				"years" => "2019 - 2021"
 			),
 
 		),
 		"achievements" => array(
 			"achievement1" => array(
-				"achievementtitle" => "achievement_title",
-				"acievementdescription" => "achievement_desc"
+				"achievementtitle" => "NKCyber Treasurer",
+				"acievementdescription" => "Voted in as the treasurer of Nothern Kentucky University's "
 			),
 			"achievement2" => array(
-				"achievementtitle" => "achievement_title",
-				"acievementdescription" => "achievement_desc"
+				"achievementtitle" => "NKCyber Build Team Head",
+				"acievementdescription" => "Voted in as the head of Build Team."
 			)
 		),
 		"language" => array(
@@ -302,23 +302,22 @@ $members = array(
 				"fluency" => "(Native)"
 			),
 			"language2" => array(
-				"languageName" => "English",
-				"fluency" => "(Native)"
+				"languageName" => "Spanish",
+				"fluency" => "(Three Years)"
 			)
 		),
 		"interests" => array(
-			"interest1",
-			"interests2"
+			"Movies",
+			"Gaming"
 		),
 		"projects" => array(
 			"project1" => array(
-				"projectTitle" => "Title of project",
-				"projectDescription" => "Description of project",
-				"projectImage" => "location of image for project",
-				"projectLink" => "link to project website"
+				"projectTitle" => "PHP Website",
+				"projectDescription" => "Build a website in PHP.",
+				"projectImage" => "",
+				"projectLink" => ""
 			)
 		)
-
 	)
 );
 
