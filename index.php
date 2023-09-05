@@ -2,12 +2,15 @@
 // Array of team member profiles
 $members = array(
 	array(
+		"profile" => "assets/images/jakeprofile.jpg",
 		"name"=>"Jakob Banta",
 		"role"=>"Cyber Security Red Team Specalist"),
 	array(
+		"profile" => "assets/images/carsonprofile.jpg",
 		"name"=>"Carson Rolph",
 		"role"=>"NKCyber VP and Cyber Security Trainer"),
 	array(
+		"profile" => "assets/images/dexterprofile.jpg",
 		"name"=>"Dexter Walters",
 		"role"=>"NKCyber Treasurer and Build Team Head")
 );
@@ -47,7 +50,7 @@ $members = array(
 		    <header class="resume-header mt-4 pt-4 pt-md-0">
 			    <div class="row">
 				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-				        <img class="picture" src="assets/images/profile.jpg" alt="">
+				        <img class="picture" src=<?= $members[$i]['profile'] ?> alt="">
 				    </div><!--//col-->
 				    <div class="col">
 					    <div class="row p-4 justify-content-center justify-content-md-between">
@@ -74,11 +77,12 @@ $members = array(
     
     <footer class="footer text-center pt-2 pb-5">
 	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-        <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by Your names</small>
+        <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by Jakob, Dexter, and Carson</small>
     </footer>
 
     
 
 </body>
 </html> 
+
 
