@@ -133,73 +133,73 @@ $members = array(
 
 	),
 	array(
-		"name" => "Carson stuff",
-		"role" => "carson role",
-		"email" => "email_address",
+		"name" => "Carson Rolph",
+		"role" => "NKCyber VP and Cyber Security Trainer",
+		"email" => "Rolphc2@nku.edu",
 		"phone" => "(555) 555-5555",
-		"linkedin" => "linkedin_url",
-		"github" => "github_url",
-		"website" => "your website_url if none but keep blank",
-		"bio" => "bio_stuff",
+		"linkedin" => "www.linkedin.com/in/carsonrolph/",
+		"github" => "ww.github.com/crolph224",
+		"website" => "",
+		"bio" => "I am an NKU student currently studying Cybersecurity and CIT. I also have a background in computer science from high school and I am Vice President of NKCyber here at NKU. I have worked for 4 years as a customer specialist and director's assitant at Kentucky Gateway Museum Center.",
 		"work" => array(
 			"work1" => array(
-				"title" => "job_title",
-				"company" => "company_name",
-				"time" => "20xx - 20xx",
-				"description" => "job_desc",
+				"title" => "Student Docent/Guest Services",
+				"company" => "Kentucky Gateway Museum Center",
+				"time" => "2020 - Present",
+				"description" => "Served an internship for guest services and later promoted to employee after high school. Covered responsibilities ranging from social media management, to exhibit setup, to front desk receptions.",
 				"achievements" => array(
-					"achievement1",
-					"achievement2"
+					"Implemented a guided QR code program for the exhibits during Covid-19.",
+					"Setup an interactive exhibit involving talks and photos for one of the galleries in the museum."
 				), "technology" => array(
-					"technology1",
-					"technology2"
+					"Canva",
+					"Quickbooks"
 				),
 			),
 			"work2" => array(
-				"title" => "job_title",
-				"company" => "company_name",
-				"time" => "20xx - 20xx",
-				"description" => "job_desc",
+				"title" => "Student Worker",
+				"company" => "NKU Center for Student Engagement",
+				"time" => "2021 - Present",
+				"description" => "Aiding the Center for Student Engagement in day-to-day operations.",
 				"achievements" => array(
-					"achievement1",
-					"achievement2"
+					"Helped guide students through procedures involving Registered Student Organizations and the MyEngagement platform.",
+					"Assisted the Center for Student Engagement in running many on-campus events."
 				), "technology" => array(
-					"technology1",
-					"technology2"
+					"Campus Groups",
+					"Presence"
 				),
 			)
 		),
 		"skills" => array(
-			"skill1",
-			"skill2",
-			"skill3"
+			"Windows Server/Active Directory",
+			"Python",
+			"WireShark"
 		),
 		"otherSkills" => array(
-			"skill1",
-			"skill2",
-			"skill3"
+			"Unix",
+			"Netstat",
+			"Windows Administration"
 		),
 		"education" => array(
 			"education1" => array(
-				"degree" => "degree_info",
+				"degree" => "BS in Cybersecurity and CIT",
 				"college" => "Northern Kentucky University",
-				"years" => "20xx - 20xx"
+				"years" => "2020 - 2025"
 			),
 			"education2" => array(
-				"degree" => "degree_info",
-				"college" => "Northern Kentucky University",
-				"years" => "20xx - 20xx"
+				"degree" => "High School Diploma",
+				"college" => "Mason County High School",
+				"years" => "2016-2021"
 			),
 
 		),
 		"achievements" => array(
 			"achievement1" => array(
-				"achievementtitle" => "achievement_title",
-				"acievementdescription" => "achievement_desc"
+				"achievementtitle" => "Dean\'s List",
+				"acievementdescription" => "Rewarded to Students who receive a grade of B or A in all classes in a semeseter. I have recieved this award 3 of my 4 semesters of college."
 			),
 			"achievement2" => array(
-				"achievementtitle" => "achievement_title",
-				"acievementdescription" => "achievement_desc"
+				"achievementtitle" => "State 1st Place CCDC",
+				"acievementdescription" => "I was a part of NKCyber's team for the Collegiate Cyber Defense Competition when we placed first in our state in 2022."
 			)
 		),
 		"language" => array(
@@ -208,20 +208,20 @@ $members = array(
 				"fluency" => "(Native)"
 			),
 			"language2" => array(
-				"languageName" => "English",
-				"fluency" => "(Native)"
+				"languageName" => "Latin",
+				"fluency" => "(Educational)"
 			)
 		),
 		"interests" => array(
-			"interest1",
-			"interests2"
+			"History",
+			"Comic Books"
 		),
 		"projects" => array(
 			"project1" => array(
-				"projectTitle" => "Title of project",
-				"projectDescription" => "Description of project",
-				"projectImage" => "location of image for project",
-				"projectLink" => "link to project website"
+				"projectTitle" => "D&D Character Creator",
+				"projectDescription" => "I designed a character creation tool for 5th Edition Dungeons and Dragons using Python. This was for my final project in INF 120.",
+				"projectImage" => "",
+				"projectLink" => "https://github.com/crolph224/INF120-Final-Project"
 			)
 		)
 
@@ -234,7 +234,7 @@ $members = array(
 		"linkedin" => "https://www.linkedin.com/in/dextercwalters",
 		"github" => "https://github.com/DexyW",
 		"website" => "",
-		"bio" => "My name is Dexter Walters. I am a student at Northern Kentucky University studying Cybersecurity in my Senior year. I am incredibly involved in the University. At one point, I held a position as a Teachet's assistant, Master Teacher\s Assitant, Research Assistant, and Network & Server Team Member.",
+		"bio" => "My name is Dexter Walters. I am a student at Northern Kentucky University studying Cybersecurity in my Senior year. I am incredibly involved in the University. At one point, I held a position as a Teacher's assistant, Master Teacher\s Assitant, Research Assistant, and Network & Server Team Member.",
 		"work" => array(
 			"work1" => array(
 				"title" => "Customer Care Center",
