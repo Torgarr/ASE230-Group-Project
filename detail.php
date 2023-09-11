@@ -7,6 +7,7 @@ $members = array(
 		"profile" => "assets/images/jakeprofile.jpg",
 		"name" => "Jakob Banta",
 		"role" => "Cyber Security Red Team Specalist",
+		"birth" => "2000-02-24",
 		"email" => "Bantaj3@nku.edu",
 		"phone" => "(859) 707-1605",
 		"linkedin" => "https://linkedin.com/in/jakob-banta-a3085a187",
@@ -137,6 +138,7 @@ $members = array(
 		"profile" => "assets/images/carsonprofile.jpg",
 		"name" => "Carson Rolph",
 		"role" => "NKCyber VP and Cyber Security Trainer",
+		"birth" => "2003-03-26",
 		"email" => "Rolphc2@nku.edu",
 		"phone" => "(555) 555-5555",
 		"linkedin" => "www.linkedin.com/in/carsonrolph/",
@@ -232,6 +234,7 @@ $members = array(
 		"profile" => "assets/images/dexterprofile.jpg",
 		"name" => "Dexter Walters",
 		"role" => "Treasurer and Build Team - NKCyber",
+		"birth" => "2001-01-04",
 		"email" => "waltersd3@mymail.nku.edu",
 		"phone" => "(859) 312-9839",
 		"linkedin" => "https://www.linkedin.com/in/dextercwalters",
@@ -324,6 +327,11 @@ $members = array(
 	)
 );
 
+function age($birthdate){
+	$today = date("Y-m-d");
+	$diff = date_diff(date_create($birthdate), date_create($today));
+	echo 'Age: ' .$diff->format('%y');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -365,7 +373,8 @@ $members = array(
 						<div class="row p-4 justify-content-center justify-content-md-between">
 							<div class="primary-info col-auto">
 								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?= $members[$index]['name'] ?></h1>
-								<div class="title mb-3"><?= $members[$index]['role'] ?></div>
+								<div class="title mb-1"><?= $members[$index]['role'] ?></div>
+								<div class="title mb-2"><?= age($members[$index]['birth']) ?></div>
 								<ul class="list-unstyled">
 									<li class="mb-2"><a class="text-link" href="<?= $members[$index]['email'] ?>"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?= $members[$index]['email'] ?></a></li>
 									<li><a class="text-link" href="<?= $members[$index]['phone'] ?>"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i><?= $members[$index]['phone'] ?></a></li>
@@ -611,3 +620,4 @@ $members = array(
 </body>
 
 </html>
+
