@@ -4,16 +4,25 @@ $members = array(
 	array(
 		"profile" => "assets/images/jakeprofile.jpg",
 		"name"=>"Jakob Banta",
-		"role"=>"Cyber Security Red Team Specalist"),
+		"role"=>"Cyber Security Red Team Specalist",
+		"birth" => "2000-02-24"),
 	array(
 		"profile" => "assets/images/carsonprofile.jpg",
 		"name"=>"Carson Rolph",
-		"role"=>"NKCyber VP and Cyber Security Trainer"),
+		"role"=>"NKCyber VP and Cyber Security Trainer",
+		"birth" => "2003-03-26"),
 	array(
 		"profile" => "assets/images/dexterprofile.jpg",
 		"name"=>"Dexter Walters",
-		"role"=>"NKCyber Treasurer and Build Team Head")
+		"role"=>"NKCyber Treasurer and Build Team Head",
+		"birth" => "2001-01-04")
 );
+
+function age($birthdate){
+	$today = date("Y-m-d");
+	$diff = date_diff(date_create($birthdate), date_create($today));
+	echo 'Age: ' .$diff->format('%y');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en"> 
@@ -57,6 +66,7 @@ $members = array(
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?= $members[$i]["name"] ?></h1>
 							    <div class="title mb-3"><?= $members[$i]["role"] ?></div>
+								<div class="title mb-3"><?= age($members[$i]["birth"]) ?></div>
 								<a href="<?='detail.php?index='.$i ?>" class="btn btn-secondary">See full profile</a>
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
