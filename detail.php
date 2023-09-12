@@ -1,6 +1,6 @@
 <?php
 // Get the index value from the URL query parameter
-$index = $_GET['index']; 
+$index = $_GET['index'];
 // Array of member profiles
 $members = array(
 	array(
@@ -327,59 +327,54 @@ $members = array(
 	)
 );
 
-function age($birthdate){
+function age($birthdate)
+{
 	$today = date("Y-m-d");
 	$diff = date_diff(date_create($birthdate), date_create($today));
-	echo 'Age: ' .$diff->format('%y');
+	echo 'Age: ' . $diff->format('%y');
 }
 
-function workExperience($members[$index]['work']){
-<div class="resume-timeline position-relative">
-		<?php
-		foreach ($members[$index]['work'] as $jobs) {
-		?>
-			<article class="resume-timeline-item position-relative pb-5">
+function workExperience($job)
+{
+?>
+	<article class="resume-timeline-item position-relative pb-5">
 
-				<div class="resume-timeline-item-header mb-2">
-					<div class="d-flex flex-column flex-md-row">
-						<h3 class="resume-position-title font-weight-bold mb-1"><?= $jobs['title'] ?></h3>
-						<div class="resume-company-name ms-auto"><?= $jobs['company'] ?></div>
-					</div><!--//row-->
-					<div class="resume-position-time"><?= $jobs['time'] ?></div>
-				</div><!--//resume-timeline-item-header-->
-				<div class="resume-timeline-item-desc">
-					<p><?= $jobs['description'] ?></p>
-					<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+		<div class="resume-timeline-item-header mb-2">
+			<div class="d-flex flex-column flex-md-row">
+				<h3 class="resume-position-title font-weight-bold mb-1"><?= $job['title'] ?></h3>
+				<div class="resume-company-name ms-auto"><?= $job['company'] ?></div>
+			</div><!--//row-->
+			<div class="resume-position-time"><?= $job['time'] ?></div>
+		</div><!--//resume-timeline-item-header-->
+		<div class="resume-timeline-item-desc">
+			<p><?= $job['description'] ?></p>
+			<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
 
-					<ul>
-						<?php
-						for ($i = 0; $i < count($jobs['achievements']); $i++) {
-						?>
-							<li><?= $jobs['achievements'][$i] ?></li>
-						<?php
-						}
-						?>
-						</ul>
+			<ul>
+				<?php
+				for ($i = 0; $i < count($job['achievements']); $i++) {
+				?>
+					<li><?= $job['achievements'][$i] ?></li>
+				<?php
+				}
+				?>
+			</ul>
 
-						<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-						<ul class="list-inline">
-							<?php
-							for ($i = 0; $i < count($jobs['technology']); $i++) {
-							?>
-								<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?= $jobs['technology'][$i] ?></span></li>
-							<?php
-							}
-							?>
-						</ul>
-					</div><!--//resume-timeline-item-desc-->
+			<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+			<ul class="list-inline">
+				<?php
+				for ($i = 0; $i < count($job['technology']); $i++) {
+				?>
+					<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?= $job['technology'][$i] ?></span></li>
+				<?php
+				}
+				?>
+			</ul>
+		</div><!--//resume-timeline-item-desc-->
 
-				</article><!--//resume-timeline-item-->
-			<?php
-			}
-			?>
+	</article><!--//resume-timeline-item-->
 
-
-</div><!--//resume-timeline-->
+<?php
 }
 ?>
 <!DOCTYPE html>
@@ -460,11 +455,21 @@ function workExperience($members[$index]['work']){
 						<section class="resume-section experience-section mb-5">
 							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
 							<div class="resume-section-content">
-								<?php
-								for ($i = 0; $i < count($members); $i++) {
-								workExperience($members,$i);
-								}
-								?>
+								<div class="resume-timeline position-relative">
+									<?php
+									foreach ($members[$index]['work'] as $jobs) {
+									workExperience($jobs);
+									}
+									?>
+
+
+
+
+								</div><!--//resume-timeline-->
+
+
+
+
 
 
 							</div>
@@ -622,4 +627,3 @@ function workExperience($members[$index]['work']){
 </body>
 
 </html>
-
